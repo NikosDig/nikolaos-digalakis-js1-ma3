@@ -17,7 +17,7 @@ async function getData() {
     answer.innerHTML = "";
     for (i = 0; i < result.length; i++) {
       console.log(i.rating);
-      if (i === 7) {
+      if (i === 8) {
         break;
       }
       answer.innerHTML += ` <div class="dynamic-content"> <h2>${result[i].name}</h2>
