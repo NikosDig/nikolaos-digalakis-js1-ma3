@@ -1,1 +1,5 @@
-// answer 2
+// answer 1
+
+const getRemainder = (a, b) => a % b;
+
+console.log(getRemainder(10, 2));

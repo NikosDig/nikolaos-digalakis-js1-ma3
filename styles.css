@@ -1,4 +1,35 @@
 body {
     margin: 0;
     padding: 0;
+    background-color: #495c53;
+    color: white;
+}
+
+h1 {
+    text-align: center;
+    font-size: 3rem;
+    text-transform: uppercase;
+}
+
+.container  {
+    display: grid;
+    justify-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.answers {
+    height: 200px;
+    text-align: center;
+    font-size: 1.3rem;
+}
+
+.dynamic-content{
+    height: 200px;
+    border: 2px solid rgb(222, 211, 211);
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 1.3rem;
+    margin-bottom: 10px;
+    padding: 10px;
 }
