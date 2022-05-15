@@ -4,7 +4,6 @@ const key = "13cc7e028dcf4a7d9d4ae4004d1aa685";
 const url = `https://api.rawg.io/api/games?dates=2019-01-01,2019-12-31&ordering=-rating&key=${key}`;
 const answer = document.querySelector(".answers");
 
-// 3.1   4th page is the code
 
 async function getData() {
   try {
